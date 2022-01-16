@@ -2,6 +2,9 @@ let canvas = document.querySelector("canvas")
 let context = canvas.getContext("2d")
 let box = 32
 
+canvas.width = window.screen.width
+canvas.height = window.screen.height
+
 let snake = []
 snake[0] = {
     x: 8 * box,
