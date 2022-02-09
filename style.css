@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-body{
+main{
     display: grid;
-    justify-content: center;
-    align-items: center;
+    place-content: center;
+    height: 100vh;
 }
